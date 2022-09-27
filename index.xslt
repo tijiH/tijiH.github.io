@@ -13,16 +13,13 @@
   <p>family_name : <xsl:value-of select="foaf:family_name" /></p>
   <p>nick : <xsl:value-of select="foaf:nick" /></p>
   <p>mbox_sha1sum : <xsl:value-of select="foaf:mbox_sha1sum" /></p>
-  <p>homepage : <xsl:value-of select="foaf:homepage" /></p>
-  <p>workplaceHomepage : <xsl:value-of select="foaf:workplaceHomepage" /></p>
-  <p>schoolHomepage : <xsl:value-of select="foaf:schoolHomepage" /></p>
   
   
 </xsl:template>
 <xsl:template match="rdf:RDF/foaf:Knows/foaf:Person">
 
   <p>name of my friend : <xsl:value-of select="foaf:name" /></p>
-  <p><xsl:value-of select="rdfs:seeAlso" /></p>
+  <p><xsl:value-of select="@rdfs:seeAlso" /></p>
   
 </xsl:template>
 </xsl:stylesheet>
