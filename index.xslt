@@ -6,17 +6,12 @@
 <xsl:output method="html" indent="yes" />
 
 <xsl:template match="rdf:RDF/foaf:Person">
-<meta>
-<link rel="meta" type="application/rdf+xml" title="FOAF" href="foaf.rdf" /> </meta>
-  <html>
-  <body>
+
   <h1>hello world</h1>
   <p>title : <xsl:value-of select="foaf:title" /></p>
   <p>Name : <xsl:value-of select="foaf:name" /></p>
   <p>givenname : <xsl:value-of select="foaf:givenname" /></p>
   <p>family_name : <xsl:value-of select="foaf:family_name" /></p>
   
-  </body>
-</html>
 </xsl:template>
 </xsl:stylesheet>
