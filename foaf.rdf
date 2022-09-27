@@ -21,7 +21,7 @@
 	
 	<foaf:knows>
 		 <foaf:Person>
-			<foaf:name>Louis</foaf:name>
+			<foaf:name>Louis Rayhko</foaf:name>
 			<rdfs:seeAlso rdf:resource="http://raykho.github.io/foaf.rdf" />
 		 </foaf:Person>
 	</foaf:knows>
