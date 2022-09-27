@@ -1,0 +1,36 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gn:   <http://www.geonames.org/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix pav:  <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://orcid.org/0000-0001-8224-0179>
+        rdf:type           prov:Person , foaf:Person ;
+        rdfs:label         "Thuguy Kush Crew" ;
+        foaf:account       <https://orcid.org/0000-0001-8224-0179#orcid-id> ;
+        foaf:familyName    "Kush Crew" ;
+        foaf:givenName     "Thuguy" ;
+        foaf:publications  <https://orcid.org/0000-0001-8224-0179#workspace-works> .
+
+<https://orcid.org/0000-0001-8224-0179#orcid-id>
+        rdf:type                     foaf:OnlineAccount ;
+        rdfs:label                   "0000-0001-8224-0179" ;
+        foaf:accountName             "0000-0001-8224-0179" ;
+        foaf:accountServiceHomepage  <http://orcid.org> .
+
+<http://pub.orcid.org/orcid-pub-web/experimental_rdf_v1/0000-0001-8224-0179>
+        rdf:type              foaf:PersonalProfileDocument ;
+        pav:createdBy         <https://orcid.org/0000-0001-8224-0179> ;
+        pav:createdOn         "2022-09-27T12:34:14.343Z"^^xsd:dateTime ;
+        pav:createdWith       <http://orcid.org> ;
+        pav:lastUpdateOn      "2022-09-27T12:34:14.342Z"^^xsd:dateTime ;
+        prov:generatedAtTime  "2022-09-27T12:34:14.342Z"^^xsd:dateTime ;
+        prov:wasAttributedTo  <https://orcid.org/0000-0001-8224-0179> ;
+        foaf:maker            <https://orcid.org/0000-0001-8224-0179> ;
+        foaf:primaryTopic     <https://orcid.org/0000-0001-8224-0179> .
+
+<https://orcid.org/0000-0001-8224-0179#workspace-works>
+        rdf:type  foaf:Document .
