@@ -7,11 +7,16 @@
 
 <xsl:template match="rdf:RDF/foaf:Person">
 
-  <h1>hello world</h1>
   <p>title : <xsl:value-of select="foaf:title" /></p>
   <p>Name : <xsl:value-of select="foaf:name" /></p>
   <p>givenname : <xsl:value-of select="foaf:givenname" /></p>
   <p>family_name : <xsl:value-of select="foaf:family_name" /></p>
+  <p>nick : <xsl:value-of select="foaf:nick" /></p>
+  <p>mbox_sha1sum : <xsl:value-of select="foaf:mbox_sha1sum" /></p>
+  <p>homepage : <xsl:value-of select="foaf:homepage" /></p>
+  <p>workplaceHomepage : <xsl:value-of select="foaf:workplaceHomepage" /></p>
+  <p>schoolHomepage : <xsl:value-of select="foaf:schoolHomepage" /></p>
+  
   
 </xsl:template>
 </xsl:stylesheet>
