@@ -12,10 +12,9 @@
 <link rel="meta" type="application/rdf+xml" title="FOAF" href="foaf.rdf" /> </meta>
   <html>
   <body>
-  
+  hello world
   <xsl:value-of select="foaf:name" />
   
   </body>
 </html>
 
-hello world
