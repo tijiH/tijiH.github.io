@@ -17,7 +17,7 @@
   
   
 </xsl:template>
-<xsl:template match="rdf:RDF/foaf:Knows/foaf:Person">
+<xsl:template match="rdf:RDF/foaf:knows/foaf:Person">
 
   <p>name of my friend : <xsl:value-of select="foaf:name" /></p>
   <p><xsl:value-of select="rdfs:seeAlso/@rdf:resource" /></p>

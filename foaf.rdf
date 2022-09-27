@@ -19,10 +19,10 @@
 		<foaf:schoolHomepage rdf:resource="univlr"/>
 	</foaf:Person>
 	
-	<foaf:Knows>
+	<foaf:knows>
 		 <foaf:Person>
 			<foaf:name>Louis</foaf:name>
 			<rdfs:seeAlso rdf:resource="http://Raykho.github.io/foaf.rdf" />
 		 </foaf:Person>
-	</foaf:Knows>
+	</foaf:knows>
 </rdf:RDF>
